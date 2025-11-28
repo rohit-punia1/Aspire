@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.aside {
+  width: 340px;
+  background: #0C365A; 
+  color: white;
+  min-height: 100vh;
+}
+.slick-dots{
+  position: relative !important; 
+  height: 50px;
+  bottom: -5px !important;
+}
+.slick-dots li.slick-active div {
+  background-color: #00C853 !important; /* green */
+  opacity: 1 !important;
+  width:16px;
+}
+.card-green {
+  background: linear-gradient(90deg,#00c36a,#00b06a);
+  color: white;
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.slick-slider{ max-width: 100vw; width: 100%; overflow: hidden !important; }
+
+
+.carousel-dots {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  background: rgba(255,255,255,0.6);
+  border-radius: 50%;
+}
+.carousel-dot.active { background: white; }
